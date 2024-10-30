@@ -1,0 +1,19 @@
+:root {
+  --color-trail: #ffffff;
+}
+
+svg.trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+svg.trail path {
+  fill: none;
+  stroke: var(--color-trail);
+  stroke-width: 5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
